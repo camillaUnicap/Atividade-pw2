@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Site</title>
+</head>
+
+<body>
+    <div class="todo">
+        <div class="todo__title">
+            Atividade
+        </div>
+        <div class="todo__new-item">
+            <label>Digite a quantidade de Números:</label>
+            <input type="number" id="numero">
+            <label>Digite a quantidade de Colunas:</label>
+            <input type="number" id="coluna">
+        </div>
+        <div class="todo__new-item">
+            <label>Digite o valor minimo:</label>
+            <input type="number" id="minimo">
+            <label>Digite o valor maximo:</label>
+            <input type="number" id="maximo">
+        </div>
+        <button id="button" onclick="gerar()">Gerar</button>
+    </div>
+
+    <div class="todo">
+        <div class="todo_list">
+            <pre id="tabela"></pre>
+        </div>
+    </div>
+
+</body>
+
+</html>
